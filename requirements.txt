@@ -1,0 +1,14 @@
+Flask==0.9
+Flask-RESTful==0.2.3
+Jinja2==2.6
+MarkupSafe==0.18
+SQLAlchemy==0.8.2
+Unidecode==0.04.13
+Werkzeug==0.8.3
+beautifulsoup4==4.2.1
+distribute==0.6.27
+gunicorn==0.17.4
+honcho==0.4.0
+httplib2==0.8
+ipython==0.13.2
+wsgiref==0.1.2
