@@ -2,7 +2,7 @@ Server-Eventi-Italia
 ====================
 
 ## Description
-Server side of [Eventi-Italia app](https://github.com/Gabriele91/Client-Eventi-Italia) for Android. This project was made for an university exam and is designed for [the heroku platform](https://www.heroku.com/).
+Server side of [Eventi-Italia app](https://github.com/Gabriele91/Client-Eventi-Italia) for Android. This project was made for an university exam and is designed for the [heroku platform](https://www.heroku.com/).
 
 ## Dependencies
 
