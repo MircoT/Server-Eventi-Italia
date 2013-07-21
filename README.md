@@ -4,6 +4,36 @@ Server-Eventi-Italia
 ## Description
 Server side of [Eventi-Italia app](https://github.com/Gabriele91/Client-Eventi-Italia) for Android. This project was made for an university exam and is designed for the heroku platform.
 
+## Dependencies
+
+All dependencies are written in requirements.txt and you can install them with:
+```bash
+pip install -r requirements.txt
+```
+## How to test
+
+Just type the command below in the main directory:
+```bash
+honcho start
+```
+List of command supported:
+* `http://localhost:5000/list` - list of all regions availables
+* `http://localhost:5000/init` - reinitialize the db (also with POST, with `command` argument)
+* `http://localhost:5000/update` - restart the update (also with POST, with `command` argument)
+* `http://localhost:5000/start` - start the update (also with POST, with `command` argument)
+* `http://localhost:5000/stop` - stop the update (also with POST, with `command` argument)
+* `http://localhost:5000/region_name/list` - cities list from a region
+* `http://localhost:5000/region_name/city_name` - get all news from a city
+
+Support DELETE for city news, region news and the all database content.  
+Support PUT for news, cities and regions.
+
+## Authors
+
+[Andrea](https://github.com/campo23)  
+[Gabriele](https://github.com/Gabriele91)  
+[Mirco](https://github.com/MircoT)
+
 ## License
 
 The MIT License (MIT)
