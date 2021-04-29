@@ -1,6 +1,6 @@
 Flask==1.0
 Flask-RESTful==0.2.3
-Jinja2==2.6
+Jinja2==2.11.3
 MarkupSafe==0.18
 SQLAlchemy==0.8.2
 Unidecode==0.04.13
